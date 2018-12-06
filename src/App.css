@@ -1,0 +1,91 @@
+.mato{
+  margin-top: 70px;
+}
+.pad{
+  padding: 15px;
+}
+.clicker{
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.clicker-display{
+  height: 200px;
+}
+.clicker-button-panel{
+  height: 100px;
+}
+.header1{
+  background-color: #343A40;
+  height: 84px;
+  color: #ffffff;
+}
+.header1 h1{
+  /* text-align: center; */
+  float: left;
+  padding: 20px;
+  vertical-align: middle;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+.header1 span{
+  float: left;
+  padding-top: 35px;
+  font-family: 'Roboto', sans-serif;
+}
+.disp:hover{
+  cursor: pointer
+}
+::selection{
+  background-color: #F8F9FA;
+}
+.time{
+  margin-top: 55px;
+  height: 70px;
+  width: 150px;
+  overflow: hidden;
+  padding: 17px;
+}
+.modalBtn{
+  z-index: 2;
+  position: relative;
+  float: right;
+  bottom: 565px;
+  right: 25px;
+}
+@media only screen and (max-width: 769px){
+  .modalBtn{
+    bottom: 605px;
+  }
+}
+@media (max-width: 426px){
+  .modalBtn{
+    bottom: 540px;
+  }
+}
+@media (max-width: 376px){
+  .modalBtn{
+    bottom: 580px;
+  }
+  .scores{
+    margin-top: 20px;
+    padding-left: 25px
+  }
+}
+/* footer{
+  background-color: #343A40;
+  color: white;
+  margin-top: 40px;
+}
+
+.copyright{
+  background-color: #1C2331;
+  height: 100px;
+}
+.copyright a{
+  color: white
+}
+.copyright span{
+  color: #979A9E
+} */

@@ -48,13 +48,11 @@
   padding: 17px;
 }
 .modalBtn{
-  z-index: 2;
+  margin-top: 10px;
   position: relative;
-  float: right;
-  bottom: 565px;
-  right: 25px;
+  top: 50px;  
 }
-@media only screen and (max-width: 769px){
+/*@media only screen and (max-width: 769px){
   .modalBtn{
     bottom: 605px;
   }
@@ -73,7 +71,7 @@
     padding-left: 25px
   }
 }
-/* footer{
+ footer{
   background-color: #343A40;
   color: white;
   margin-top: 40px;

@@ -76,7 +76,7 @@ export class Clicker extends React.Component{
   render(){
     return(
       <div className="row container-fluid">
-      <div className="col-12 col-md-8">
+      <div className="col-12 col-md-8 playarea">
         <div className="clicker border border-secondary rounded">
           <div className="clicker-display d-flex align-items-center bg-light text-secondary disp disabled"
                onClick={this.incrementCount}>

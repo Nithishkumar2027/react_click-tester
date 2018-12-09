@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Helper} from './Helper';
 import {ScoreList} from './ScoreList'
+import 'bootstrap/dist/css/bootstrap.min.css';
 export class Clicker extends React.Component{
   constructor(props){
     super(props);
@@ -91,10 +92,7 @@ export class Clicker extends React.Component{
             <button className="btn btn-success w-50" onClick={this.startTimer}>
               <i className="fa fa-play fa-lg"></i><br/>Play
             </button>
-
-            <button className="btn btn-secondary w-50" onClick={Helper}>
-              <i className="fa fa-info-circle fa-lg"></i><br/>Need help?
-            </button>
+            <Helper />
           </div>
         </div>
         <center>
@@ -111,7 +109,9 @@ export class Clicker extends React.Component{
         <h3>Your Scores:</h3>
         <ScoreList numbers={this.state.scores}/>
       </div>
+
     </div>
+
     );
   }
 }

@@ -68,3 +68,14 @@
   font-size: 17px;
   line-height: 55px;
 }
+
+@media (max-width: 320px) {
+  .playarea{
+    margin-left: -5px;
+  }
+}
+@media only screen and(max-width: 376px) {
+  .playarea{
+    margin-left: 15px;
+  }
+}

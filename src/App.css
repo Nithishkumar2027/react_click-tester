@@ -20,19 +20,16 @@
   background-color: #343A40;
   height: 84px;
   color: #ffffff;
+  text-align: center;
 }
-.header1 h1{
-  /* text-align: center; */
-  float: left;
-  padding: 20px;
-  vertical-align: middle;
+#head{
   font-family: 'Nunito', sans-serif;
-  font-weight: 700;
+  color: #ececec;
 }
-.header1 span{
-  float: left;
-  padding-top: 35px;
+#span{
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #ececec;
 }
 .disp:hover{
   cursor: pointer
@@ -50,40 +47,24 @@
 .modalBtn{
   margin-top: 10px;
   position: relative;
-  top: 50px;  
+  top: 50px;
 }
-/*@media only screen and (max-width: 769px){
-  .modalBtn{
-    bottom: 605px;
-  }
-}
-@media (max-width: 426px){
-  .modalBtn{
-    bottom: 540px;
-  }
-}
-@media (max-width: 376px){
-  .modalBtn{
-    bottom: 580px;
-  }
-  .scores{
-    margin-top: 20px;
-    padding-left: 25px
-  }
-}
- footer{
-  background-color: #343A40;
-  color: white;
-  margin-top: 40px;
-}
-
-.copyright{
-  background-color: #1C2331;
+.bus{
   height: 100px;
 }
-.copyright a{
-  color: white
+#code{
+  color: #4C6EF5;
+  font-size: 20px;
 }
-.copyright span{
-  color: #979A9E
-} */
+#heart{
+  color: #ff575b;
+}
+.footer{
+  margin-top: 34px;
+  height: 51px;
+  background-color: #F8F9FA
+}
+.footer span{
+  font-size: 17px;
+  line-height: 55px;
+}

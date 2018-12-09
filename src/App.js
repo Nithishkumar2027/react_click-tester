@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Header} from './Header.js';
 import {Clicker} from './Clicker.js';
+import {Footer} from './Footer.js';
 
 class App extends React.Component{
 
@@ -12,6 +13,8 @@ class App extends React.Component{
         <div className="mato">
           <Clicker />
         </div>
+        <br/><br/>
+        <Footer />
       </div>
     );
   }
